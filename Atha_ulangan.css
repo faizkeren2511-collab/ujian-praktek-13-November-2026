@@ -1,0 +1,107 @@
+nav {
+        background-color: white;
+        border-bottom: 1px solid#ddd;
+        padding: 20px 8%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo {
+        font-size: 24px;
+        font-weight: bold;
+    }
+    nav ul {
+        display: flex;
+        gap: 25px;
+        list-style: none;
+    }
+    nav a {
+        text-decoration: none;
+        color: #333;
+    }
+    nav a:hover {
+        color: #007bff;
+    }
+
+h1#Judul {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    color: #686666d0;
+}
+
+#Ruang2 {
+    background-color: darkgrey;
+}
+
+.card {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+
+.card img {
+        width: 1000px;
+        height: 250px;
+        object-fit: cover;
+    }    
+
+p#Tenka {
+    color: #007bff;
+    text-align: left;
+}
+
+p#Isi_1 {
+    text-align: left;
+}
+
+.categories {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 20px;
+    }
+
+    .category-btn {
+        padding: 10px 18px;
+        background: white;
+        border: 1px solid #ddd;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+
+    .category-btn:hover {
+        background: #060aee;
+        color: white;
+    }
+
+    
+
+     /* ARTICLE GRID */
+    .articles {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap:25px;
+    }
+    .card {
+        background: white;
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .card img {
+        width: 450px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .card-content {
+        padding: 20px;
+    }
+    .card h3 {
+        margin: 8px 0;
+    }
+    .card p {
+        color: #666;
+        font-size: 14px;
+    }
